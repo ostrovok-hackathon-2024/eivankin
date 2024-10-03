@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    entrypoint: ["./cli_entrypoint.sh"]
+
+  web:
+    build: .
+    ports:
+      - "80:80"
