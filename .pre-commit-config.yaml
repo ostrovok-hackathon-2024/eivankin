@@ -1,0 +1,7 @@
+repos:
+- repo: https://github.com/wlritchi/pre-commit-tools-via-poetry
+  rev: '2.1.0'
+  hooks:
+    - id: black
+    - id: isort
+    - id: ruff
