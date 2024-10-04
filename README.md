@@ -57,7 +57,7 @@
 ### Через докер (как в sanity check action)
 
 1. Собрать контейнеры: `docker-compose build`
-2. Запустить: ` docker compose run -v ${PWD}/data:/opt/data app --content=/opt/data/sanity_check_in.csv > result.csv`
+2. Запустить: `docker compose run -v ${PWD}/data:/opt/data app --content=/opt/data/sanity_check_in.csv > result.csv`
 
 ### Вне контейнера
 
