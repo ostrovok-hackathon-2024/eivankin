@@ -13,7 +13,7 @@ app = typer.Typer()
 @app.command()
 def run_inference(
     input_path: Path = typer.Option(..., "--content", help="A path to rates CSV file"),
-    model: AvailableModels = AvailableModels.RIDGE_CLASSIFIER,
+    model: AvailableModels = AvailableModels.LINEAR_SVC,
 ):
     df = pd.read_csv(input_path).fillna("undefined")
 
