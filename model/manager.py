@@ -5,7 +5,7 @@ import joblib
 import pandas as pd
 from sklearn.pipeline import Pipeline
 
-from model.domain import FEATURE_NAMES, TARGET_NAMES
+from model.domain import FEATURE_NAME, TARGET_NAMES
 
 MODEL_DIR_PATH = Path(__file__).parent.parent / "models"
 
@@ -34,4 +34,4 @@ class ModelManager:
         return result_df
 
     def predict_single(self, data: pd.DataFrame, target: str) -> pd.Series:
-        return self.class_to_model[target].predict(data[FEATURE_NAMES])
+        return self.class_to_model[target].predict(data[FEATURE_NAME])

@@ -10,7 +10,7 @@ TARGET_NAMES = [
     "balcony",
     "view",
 ]
-FEATURE_NAMES = ["rate_name"]
+FEATURE_NAME = "rate_name"
 
 
 class AvailableModels(StrEnum):
