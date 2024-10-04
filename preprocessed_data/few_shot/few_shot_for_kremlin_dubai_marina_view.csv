@@ -1,0 +1,12 @@
+rate_name,class,quality,bathroom,bedding,capacity,club,balcony,view
+Studio room Kremlin view double,studio,undefined,private bathroom,double/double-or-twin,double,not club,no balcony,kremlin view
+Twin Room Standard | Garden View,room,standard,private bathroom,double/double-or-twin,double,not club,no balcony,garden view
+Studio - City View,studio,undefined,private bathroom,undefined,undefined,not club,no balcony,city view
+Junior Suite Garden View Junior Suite,junior-suite,undefined,private bathroom,undefined,undefined,not club,no balcony,garden view
+Double or twin garden view,room,standard,private bathroom,double/double-or-twin,double,not club,no balcony,garden view
+Apartment 1 room Partial Ocean View One Bedroom Condo,apartment,undefined,private bathroom,undefined,undefined,not club,no balcony,partial-ocean view
+Sea View Twin Room,room,standard,private bathroom,double/double-or-twin,double,not club,no balcony,sea view
+Luxury Sea View Room (Third adult in sofa Bed) Luxury Sea View Room,room,luxury,private bathroom,undefined,undefined,not club,no balcony,sea view
+"room, 1 bedroom, garden view",room,standard,private bathroom,undefined,undefined,not club,no balcony,garden view
+"deluxe room, 1 king bed, pool view",room,deluxe,private bathroom,double/double-or-twin,double,not club,no balcony,pool view
+"Deluxe Room with Two Single Beds, Land or Pool View, ",room,deluxe,private bathroom,double/double-or-twin,double,not club,no balcony,pool view

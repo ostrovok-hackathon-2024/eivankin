@@ -1,0 +1,16 @@
+rate_name,class,quality,bathroom,bedding,capacity,club,balcony,view
+Sextuple Room - Shared Bathroom,room,standard,shared bathroom,single bed,sextuple,not club,no balcony,undefined
+Quintuple Room with City View,room,standard,private bathroom,single bed,quintuple,not club,no balcony,city view
+Apartment for 5 People with Private Bath,apartment,undefined,private bathroom,double/double-or-twin,quintuple,not club,no balcony,undefined
+Quintuple Room - Garden View,room,standard,private bathroom,single bed,quintuple,not club,no balcony,garden view
+Sextuple Tent with Shared Bathroom,tent,standard,shared bathroom,single bed,sextuple,not club,no balcony,undefined
+Quintuple Suite - Pool View,suite,deluxe,private bathroom,single bed,quintuple,not club,no balcony,pool view
+Sextuple Room - Private Bathroom,room,economy,private bathroom,single bed,sextuple,not club,no balcony,undefined
+Quintuple Apartment with Kitchen,apartment,standard,private bathroom,double/double-or-twin,quintuple,not club,no balcony,undefined
+Sextuple Suite - Sea View,suite,standard,private bathroom,single bed,sextuple,not club,balcony,sea view
+Quintuple Cottage - Mountain View,cottage,standard,private bathroom,single bed,quintuple,not club,no balcony,mountain view
+Sextuple Cabin - Private Bathroom,cabin,undefined,private bathroom,single bed,sextuple,not club,no balcony,undefined
+Quintuple Room - Courtyard View,room,standard,private bathroom,single bed,quintuple,not club,no balcony,courtyard view
+Sextuple Villa with Sea Front,villa,luxury,private bathroom,single bed,sextuple,not club,balcony,sea front
+Quintuple Room - Ocean View,room,standard,private bathroom,single bed,quintuple,not club,no balcony,ocean view
+Sextuple Bungalow - Lake View,bungalow,standard,private bathroom,single bed,sextuple,not club,no balcony,lake view

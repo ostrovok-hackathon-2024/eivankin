@@ -1,0 +1,16 @@
+rate_name,class,quality,bathroom,bedding,capacity,club,balcony,view
+Camping Tent - Deluxe Private Bath,camping,deluxe,private bathroom,double/double-or-twin,double,not club,no balcony,undefined
+"Camping Tent - Standard, 1 Double Bed",camping,standard,shared bathroom,double/double-or-twin,double,not club,no balcony,undefined
+"Camping Cabin - Comfort, Shared Bathroom",camping,comfort,shared bathroom,double/double-or-twin,double,not club,no balcony,undefined
+"Luxury Camping Tent - Private Bath, Sea View",camping,luxury,private bathroom,double/double-or-twin,double,not club,no balcony,sea view
+Camping Lodge - Premium with Shared Bathroom,camping,premium,shared bathroom,double/double-or-twin,undefined,not club,no balcony,undefined
+"Camping Tent - Economy, Shared Bath",camping,economy,shared bathroom,double/double-or-twin,double,not club,no balcony,undefined
+Family Camping Cabin - Private Bath,camping,standard,private bathroom,double/double-or-twin,quadruple,not club,no balcony,undefined
+"Camping Safari Tent - Deluxe, Garden View",camping,deluxe,shared bathroom,double/double-or-twin,double,not club,no balcony,garden view
+Standard Camping Tent - External Private Bath,camping,standard,external private bathroom,double/double-or-twin,double,not club,no balcony,undefined
+"Camping Tent - Ambassador, Private Bath",camping,ambassador,private bathroom,double/double-or-twin,undefined,not club,no balcony,undefined
+"Camping Tent - Royal, Sea Front",camping,royal,private bathroom,double/double-or-twin,double,not club,no balcony,sea front
+"Camping Cabin - Business Class, Shared Bath",camping,business,shared bathroom,double/double-or-twin,undefined,not club,no balcony,undefined
+Luxury Camping Tent - Burj-Khalifa View,camping,luxury,private bathroom,double/double-or-twin,double,not club,no balcony,burj-khalifa view
+"Camping Tent - Presidential, Private Bath",camping,presidential,private bathroom,double/double-or-twin,double,not club,no balcony,undefined
+Standard Camping Cabin - Partial-Ocean View,camping,standard,shared bathroom,double/double-or-twin,undefined,not club,no balcony,partial-ocean view
