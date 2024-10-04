@@ -1,44 +1,27 @@
-import argparse
-import csv
 import sys
+from pathlib import Path
 
-parser = argparse.ArgumentParser()
+import pandas as pd
+import typer
 
-parser.add_argument("--content", help="A path to rates CSV file")
+from model.domain import AvailableModels
+from model.manager import ModelManager
 
-args = parser.parse_args()
+app = typer.Typer()
 
-# TODO: do something with the content
 
-result = csv.writer(sys.stdout, lineterminator="\n")
-result.writerow(
-    [
-        "rate_name",
-        "class",
-        "quality",
-        "bathroom",
-        "bedding",
-        "capacity",
-        "club",
-        "balcony",
-        "view",
-    ]
-)
+@app.command()
+def run_inference(
+    input_path: Path = typer.Option(..., "--content", help="A path to rates CSV file"),
+    model: AvailableModels = AvailableModels.RIDGE_CLASSIFIER,
+):
+    df = pd.read_csv(input_path).fillna("undefined")
 
-with open(args.content) as f:
-    reader = csv.reader(f)
-    next(reader)
-    for row in reader:
-        result.writerow(
-            [
-                "Test Room",
-                "villa",
-                "deluxe",
-                "private bathroom",
-                "bunk bed",
-                "double",
-                "not club",
-                "with balcony",
-                "mountain view",
-            ]
-        )
+    manager = ModelManager(model)
+    result_df = manager.predict(df)
+
+    result_df.to_csv(sys.stdout, index=False)
+
+
+if __name__ == "__main__":
+    app()

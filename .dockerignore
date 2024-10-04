@@ -2,3 +2,5 @@
 ./venv/
 ./.github/
 ./data/
+./raw_data/
+./preprocessed_data/
