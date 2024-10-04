@@ -163,5 +163,4 @@ cython_debug/
 
 
 # Project-specific stuff
-data/
 result.csv
